@@ -5,10 +5,15 @@ body {
 
 .navbar-brand {
   font-weight: bold;
-  font-size: largest;
+  font-size: xx-large;
+}
+
+#logo {
+  text-align: center;
 }
 
 #logo img {
+  float: none;
   max-width: 150px;
   border: 5px solid #fff;
   border-radius: 30%;
@@ -18,9 +23,10 @@ body {
 .panel-body img {
   float: left;
   max-width: 200px;
-  margin: 10px;  
+  margin: 10px;
 }
 
-footer {
+footer p {
+  margin-top: 15px;
   text-align: center;
 }
